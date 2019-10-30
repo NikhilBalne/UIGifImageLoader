@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC04D4F22369578600FAED5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC04D4F12369578600FAED5E /* AppDelegate.m */; };
+		EC04D4F52369578600FAED5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC04D4F42369578600FAED5E /* ViewController.m */; };
+		EC04D4F82369578600FAED5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC04D4F62369578600FAED5E /* Main.storyboard */; };
+		EC04D4FB2369578700FAED5E /* UIGifImageLoader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC04D4F92369578700FAED5E /* UIGifImageLoader.xcdatamodeld */; };
+		EC04D4FD2369578800FAED5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC04D4FC2369578800FAED5E /* Assets.xcassets */; };
+		EC04D5002369578800FAED5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC04D4FE2369578800FAED5E /* LaunchScreen.storyboard */; };
+		EC04D5032369578800FAED5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC04D5022369578800FAED5E /* main.m */; };
+		EC04D50D2369578800FAED5E /* UIGifImageLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC04D50C2369578800FAED5E /* UIGifImageLoaderTests.m */; };
+		EC04D5182369578800FAED5E /* UIGifImageLoaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC04D5172369578800FAED5E /* UIGifImageLoaderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC04D5092369578800FAED5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC04D4E52369578600FAED5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC04D4EC2369578600FAED5E;
+			remoteInfo = UIGifImageLoader;
+		};
+		EC04D5142369578800FAED5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC04D4E52369578600FAED5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC04D4EC2369578600FAED5E;
+			remoteInfo = UIGifImageLoader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC04D4ED2369578600FAED5E /* UIGifImageLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIGifImageLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC04D4F02369578600FAED5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC04D4F12369578600FAED5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC04D4F32369578600FAED5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC04D4F42369578600FAED5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC04D4F72369578600FAED5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC04D4FA2369578700FAED5E /* UIGifImageLoader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UIGifImageLoader.xcdatamodel; sourceTree = "<group>"; };
+		EC04D4FC2369578800FAED5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC04D4FF2369578800FAED5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC04D5012369578800FAED5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC04D5022369578800FAED5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC04D5082369578800FAED5E /* UIGifImageLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIGifImageLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC04D50C2369578800FAED5E /* UIGifImageLoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIGifImageLoaderTests.m; sourceTree = "<group>"; };
+		EC04D50E2369578800FAED5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC04D5132369578800FAED5E /* UIGifImageLoaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIGifImageLoaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC04D5172369578800FAED5E /* UIGifImageLoaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIGifImageLoaderUITests.m; sourceTree = "<group>"; };
+		EC04D5192369578800FAED5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC04D4EA2369578600FAED5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC04D5052369578800FAED5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC04D5102369578800FAED5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC04D4E42369578600FAED5E = {
+			isa = PBXGroup;
+			children = (
+				EC04D4EF2369578600FAED5E /* UIGifImageLoader */,
+				EC04D50B2369578800FAED5E /* UIGifImageLoaderTests */,
+				EC04D5162369578800FAED5E /* UIGifImageLoaderUITests */,
+				EC04D4EE2369578600FAED5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC04D4EE2369578600FAED5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC04D4ED2369578600FAED5E /* UIGifImageLoader.app */,
+				EC04D5082369578800FAED5E /* UIGifImageLoaderTests.xctest */,
+				EC04D5132369578800FAED5E /* UIGifImageLoaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC04D4EF2369578600FAED5E /* UIGifImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				EC04D4F02369578600FAED5E /* AppDelegate.h */,
+				EC04D4F12369578600FAED5E /* AppDelegate.m */,
+				EC04D4F32369578600FAED5E /* ViewController.h */,
+				EC04D4F42369578600FAED5E /* ViewController.m */,
+				EC04D4F62369578600FAED5E /* Main.storyboard */,
+				EC04D4FC2369578800FAED5E /* Assets.xcassets */,
+				EC04D4FE2369578800FAED5E /* LaunchScreen.storyboard */,
+				EC04D5012369578800FAED5E /* Info.plist */,
+				EC04D5022369578800FAED5E /* main.m */,
+				EC04D4F92369578700FAED5E /* UIGifImageLoader.xcdatamodeld */,
+			);
+			path = UIGifImageLoader;
+			sourceTree = "<group>";
+		};
+		EC04D50B2369578800FAED5E /* UIGifImageLoaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC04D50C2369578800FAED5E /* UIGifImageLoaderTests.m */,
+				EC04D50E2369578800FAED5E /* Info.plist */,
+			);
+			path = UIGifImageLoaderTests;
+			sourceTree = "<group>";
+		};
+		EC04D5162369578800FAED5E /* UIGifImageLoaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC04D5172369578800FAED5E /* UIGifImageLoaderUITests.m */,
+				EC04D5192369578800FAED5E /* Info.plist */,
+			);
+			path = UIGifImageLoaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC04D4EC2369578600FAED5E /* UIGifImageLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC04D51C2369578800FAED5E /* Build configuration list for PBXNativeTarget "UIGifImageLoader" */;
+			buildPhases = (
+				EC04D4E92369578600FAED5E /* Sources */,
+				EC04D4EA2369578600FAED5E /* Frameworks */,
+				EC04D4EB2369578600FAED5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIGifImageLoader;
+			productName = UIGifImageLoader;
+			productReference = EC04D4ED2369578600FAED5E /* UIGifImageLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC04D5072369578800FAED5E /* UIGifImageLoaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC04D51F2369578800FAED5E /* Build configuration list for PBXNativeTarget "UIGifImageLoaderTests" */;
+			buildPhases = (
+				EC04D5042369578800FAED5E /* Sources */,
+				EC04D5052369578800FAED5E /* Frameworks */,
+				EC04D5062369578800FAED5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC04D50A2369578800FAED5E /* PBXTargetDependency */,
+			);
+			name = UIGifImageLoaderTests;
+			productName = UIGifImageLoaderTests;
+			productReference = EC04D5082369578800FAED5E /* UIGifImageLoaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC04D5122369578800FAED5E /* UIGifImageLoaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC04D5222369578800FAED5E /* Build configuration list for PBXNativeTarget "UIGifImageLoaderUITests" */;
+			buildPhases = (
+				EC04D50F2369578800FAED5E /* Sources */,
+				EC04D5102369578800FAED5E /* Frameworks */,
+				EC04D5112369578800FAED5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC04D5152369578800FAED5E /* PBXTargetDependency */,
+			);
+			name = UIGifImageLoaderUITests;
+			productName = UIGifImageLoaderUITests;
+			productReference = EC04D5132369578800FAED5E /* UIGifImageLoaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC04D4E52369578600FAED5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = iHubTechnologiesPvtLtd;
+				TargetAttributes = {
+					EC04D4EC2369578600FAED5E = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					EC04D5072369578800FAED5E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = EC04D4EC2369578600FAED5E;
+					};
+					EC04D5122369578800FAED5E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = EC04D4EC2369578600FAED5E;
+					};
+				};
+			};
+			buildConfigurationList = EC04D4E82369578600FAED5E /* Build configuration list for PBXProject "UIGifImageLoader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC04D4E42369578600FAED5E;
+			productRefGroup = EC04D4EE2369578600FAED5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC04D4EC2369578600FAED5E /* UIGifImageLoader */,
+				EC04D5072369578800FAED5E /* UIGifImageLoaderTests */,
+				EC04D5122369578800FAED5E /* UIGifImageLoaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC04D4EB2369578600FAED5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC04D5002369578800FAED5E /* LaunchScreen.storyboard in Resources */,
+				EC04D4FD2369578800FAED5E /* Assets.xcassets in Resources */,
+				EC04D4F82369578600FAED5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC04D5062369578800FAED5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC04D5112369578800FAED5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC04D4E92369578600FAED5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC04D4FB2369578700FAED5E /* UIGifImageLoader.xcdatamodeld in Sources */,
+				EC04D4F52369578600FAED5E /* ViewController.m in Sources */,
+				EC04D5032369578800FAED5E /* main.m in Sources */,
+				EC04D4F22369578600FAED5E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC04D5042369578800FAED5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC04D50D2369578800FAED5E /* UIGifImageLoaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC04D50F2369578800FAED5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC04D5182369578800FAED5E /* UIGifImageLoaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC04D50A2369578800FAED5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC04D4EC2369578600FAED5E /* UIGifImageLoader */;
+			targetProxy = EC04D5092369578800FAED5E /* PBXContainerItemProxy */;
+		};
+		EC04D5152369578800FAED5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC04D4EC2369578600FAED5E /* UIGifImageLoader */;
+			targetProxy = EC04D5142369578800FAED5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC04D4F62369578600FAED5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC04D4F72369578600FAED5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC04D4FE2369578800FAED5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC04D4FF2369578800FAED5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC04D51A2369578800FAED5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC04D51B2369578800FAED5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC04D51D2369578800FAED5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P99J26CUK;
+				INFOPLIST_FILE = UIGifImageLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iHubTechnologiesPvtLtd.UIGifImageLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC04D51E2369578800FAED5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P99J26CUK;
+				INFOPLIST_FILE = UIGifImageLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iHubTechnologiesPvtLtd.UIGifImageLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC04D5202369578800FAED5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P99J26CUK;
+				INFOPLIST_FILE = UIGifImageLoaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iHubTechnologiesPvtLtd.UIGifImageLoaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIGifImageLoader.app/UIGifImageLoader";
+			};
+			name = Debug;
+		};
+		EC04D5212369578800FAED5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P99J26CUK;
+				INFOPLIST_FILE = UIGifImageLoaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iHubTechnologiesPvtLtd.UIGifImageLoaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIGifImageLoader.app/UIGifImageLoader";
+			};
+			name = Release;
+		};
+		EC04D5232369578800FAED5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P99J26CUK;
+				INFOPLIST_FILE = UIGifImageLoaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iHubTechnologiesPvtLtd.UIGifImageLoaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIGifImageLoader;
+			};
+			name = Debug;
+		};
+		EC04D5242369578800FAED5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P99J26CUK;
+				INFOPLIST_FILE = UIGifImageLoaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iHubTechnologiesPvtLtd.UIGifImageLoaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIGifImageLoader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC04D4E82369578600FAED5E /* Build configuration list for PBXProject "UIGifImageLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC04D51A2369578800FAED5E /* Debug */,
+				EC04D51B2369578800FAED5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC04D51C2369578800FAED5E /* Build configuration list for PBXNativeTarget "UIGifImageLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC04D51D2369578800FAED5E /* Debug */,
+				EC04D51E2369578800FAED5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC04D51F2369578800FAED5E /* Build configuration list for PBXNativeTarget "UIGifImageLoaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC04D5202369578800FAED5E /* Debug */,
+				EC04D5212369578800FAED5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC04D5222369578800FAED5E /* Build configuration list for PBXNativeTarget "UIGifImageLoaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC04D5232369578800FAED5E /* Debug */,
+				EC04D5242369578800FAED5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC04D4F92369578700FAED5E /* UIGifImageLoader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC04D4FA2369578700FAED5E /* UIGifImageLoader.xcdatamodel */,
+			);
+			currentVersion = EC04D4FA2369578700FAED5E /* UIGifImageLoader.xcdatamodel */;
+			path = UIGifImageLoader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC04D4E52369578600FAED5E /* Project object */;
+}
